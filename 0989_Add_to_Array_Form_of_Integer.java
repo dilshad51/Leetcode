@@ -21,7 +21,7 @@ class Solution {
     }
 
     // Solution method
-    static List<Integer> addToArrayForm(int[] num, int k) {
+    static List<Integer> addToArrayForm(int[] nums, int k) {
         ArrayList<Integer> ans=new ArrayList<>();
         int i=nums.length-1;
         while(i>=0||k>0){
