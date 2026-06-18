@@ -32,6 +32,6 @@ class Solution {
             }
             if(max<sum) max=sum;
         }
-        return max;
+        return (max);
     }
 }
